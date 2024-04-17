@@ -22,7 +22,7 @@ def test_same_courier_not_ok(unregistered_courier):
     assert response.status_code == 409 and response.text == '{"code":409,"message":"Этот логин уже используется. Попробуйте другой."}'
 
 
-@allure.title('Проверка успешного создания курьера при заполнении обязательных полей')
+@allure.title('Проверка успешного создания курьера при заполнении только обязательных полей')
 def test_create_courier_no_name_field(unregistered_courier):
     data = unregistered_courier
     data["firstName"] = None
