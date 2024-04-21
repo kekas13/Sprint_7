@@ -1,5 +1,5 @@
 import pytest
-from Sprint_7.courier_generator import register_new_courier_and_return_login_password, generate_login_pass
+from courier_generator import register_new_courier_and_return_login_password, generate_login_pass
 
 
 @pytest.fixture
