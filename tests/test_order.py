@@ -2,8 +2,8 @@ import allure
 import pytest
 import requests
 
-from Sprint_7.env import MAKE_ORDER
-from Sprint_7.urls import URL
+from env import MAKE_ORDER
+from urls import URL
 
 
 @allure.title('Проверка успешного создания заказа при разном заполнении поля "цвет"')

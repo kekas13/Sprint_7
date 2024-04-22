@@ -1,8 +1,8 @@
 import allure
 import requests
 
-from Sprint_7.env import MAKE_ORDER
-from Sprint_7.urls import URL
+from env import MAKE_ORDER
+from urls import URL
 
 
 @allure.title('Проверка возврата списка заказов в тело ответа')

@@ -2,9 +2,9 @@ import allure
 import pytest
 import requests
 
-from Sprint_7.courier_generator import generate_login_pass
-from Sprint_7.env import LOGIN_COURIER
-from Sprint_7.urls import URL
+from courier_generator import generate_login_pass
+from env import LOGIN_COURIER
+from urls import URL
 
 
 @allure.title('Проверка возврата "id" при успешной авторизации курьера')

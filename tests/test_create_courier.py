@@ -2,9 +2,9 @@ import allure
 import pytest
 import requests
 
-from Sprint_7.courier_generator import generate_login_pass
-from Sprint_7.urls import URL
-from Sprint_7.env import CREATE_COURIER
+from courier_generator import generate_login_pass
+from urls import URL
+from env import CREATE_COURIER
 
 
 @allure.title('Проверка успешного создания курьера')
